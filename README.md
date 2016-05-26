@@ -1,36 +1,42 @@
-package cn.itcast_03;
+import java.util.Scanner;
 
-/*
- * 		一般都是用来比较对象的成员变量值是否相同。
- * 重写的代码优化：提高效率，提高程序的健壮性。
- * 最终版：
- * 		其实还是自动生成。
- * 
- * 看源码：
- * 		public boolean equals(Object obj) {
- * 			//this - s1
- * 			//obj - s2
- *       	return (this == obj);
- *   	}
- * 
- */
-public class StudentDemo {
+class SwitchTest2 {
 	public static void main(String[] args) {
-		System.out.println(s1 == s2); // false
-		Student s3 = s1;
-		System.out.println(s1 == s3);// true
-		System.out.println("---------------");
-
-		System.out.println(s1.equals(s2)); // obj = s2; //false
-		System.out.println(s1.equals(s1)); // true
-		System.out.println(s1.equals(s3)); // true
-		Student s4 = new Student("风清扬",30);
-		System.out.println(s1.equals(s4)); //false
+		//出一个选择题，然后供你选择。
+		//由于我们现在没有办法键盘录入得到一个'A','B'
+		//这样的东西，我就用65，66这样的值替代
+		//将来我们获取到这样的值以后，强制转换为字符类型
+		System.out.println("下面的几个人你最爱谁?");
+		System.out.println("65 林青霞");
+		System.out.println("66 张曼玉");
+		System.out.println("67 刘德华");
+		System.out.println("68 王力宏");
 		
-		Demo d = new Demo();
-		System.out.println(s1.equals(d)); //ClassCastException
-/*****/
+		//键盘录入选择的数据。
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("请输入你的选择：");
+		int choiceNumber = sc.nextInt();
+		
+		//强制转换为字符类型
+		char choice = (char) choiceNumber;
+		
+		switch(choice) {
+			case 'A':
+				System.out.println("恭喜你,选择正确");
+				break;
+			case 'B':
+				System.out.println("不好意思，你选择有误");
+				break;
+			case 'C':
+				System.out.println("不好意思，你选择有误");
+				break;
+			case 'D':
+				System.out.println("不好意思，你选择有误");
+				break;
+			default:
+				System.out.println("没有该选项");
+				break;
+		}
 	}
 }
-
-class Demo {}
