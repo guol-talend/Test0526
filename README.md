@@ -11,7 +11,7 @@ class SwitchTest2 {
 		System.out.println("66 张曼玉");
 		System.out.println("67 刘德华");
 		System.out.println("68 王力宏");
-		
+		啦啦啦打大师
 						
 /*
 this is for daily life.
@@ -20,7 +20,6 @@ this is for daily life.
 */
 
 
-		//键盘录入选择的数据。
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("请输入你的选择：");
