@@ -25,14 +25,11 @@ class SwitchTest2 {
 		
 		System.out.println("请输入你的选择：");
 		int choiceNumber = sc.nextInt();
-		
+		String text = "hello";
 		//强制转换为字符类型
 		char choice = (char) choiceNumber;
 		
 		switch(choice) {
-			case 'A':
-				System.out.println("恭喜你,选择正确");
-				break;
 			case 'B':
 				System.out.println("不好意思，你选择有误");
 				break;
@@ -41,6 +38,9 @@ class SwitchTest2 {
 				break;
 			case 'D':
 				System.out.println("不好意思，你选择有误");
+				break;
+			case 'E':
+				System.out.println("we are out");
 				break;
 			default:
 				System.out.println("没有该选项");
