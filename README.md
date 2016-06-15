@@ -11,16 +11,15 @@ class SwitchTest2 {
 		System.out.println("66 张曼玉");
 		System.out.println("67 刘德华");
 		System.out.println("68 王力宏");
-		
+		啦啦啦打大师
 						
 /*
-	return:返回
+this is for daily life.
 	
 	其实它的作用不是结束循环的，而是结束方法的。
 */
 
 
-		//键盘录入选择的数据。
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("请输入你的选择：");
@@ -48,3 +47,6 @@ class SwitchTest2 {
 		}
 	}
 }
+
+
+Life is running now!
