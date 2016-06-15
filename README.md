@@ -42,9 +42,7 @@ this is for daily life.
 			case 'E':
 				System.out.println("we are out");
 				break;
-			default:
-				System.out.println("没有该选项");
-				break;
+		See you
 		}
 	}
 }
