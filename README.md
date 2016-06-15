@@ -7,7 +7,7 @@ class SwitchTest2 {
 		//这样的东西，我就用65，66这样的值替代
 		//将来我们获取到这样的值以后，强制转换为字符类型
 		System.out.println("下面的几个人你最爱谁?");
-		System.out.println("65 林青霞");
+
 		System.out.println("66 张曼玉");
 		System.out.println("67 刘德华");
 		System.out.println("68 王力宏");
@@ -47,6 +47,6 @@ this is for daily life.
 		}
 	}
 }
-
+updatea master now want to have conflicts
 
 Life is running now!
