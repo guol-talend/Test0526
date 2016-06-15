@@ -12,13 +12,7 @@ class SwitchTest2 {
 		System.out.println("67 刘德华");
 		System.out.println("68 王力宏");
 		
-						
-/*
-this is for daily life.
-	
-	其实它的作用不是结束循环的，而是结束方法的。
-*/
-
+					
 
 		//键盘录入选择的数据。
 		Scanner sc = new Scanner(System.in);
@@ -33,7 +27,7 @@ this is for daily life.
 			case 'B':
 				System.out.println("不好意思，你选择有误");
 				break;
-			case 'C':
+			case 'C': and yes is ok
 				System.out.println("不好意思，你选择有误");
 				break;
 			case 'D':
