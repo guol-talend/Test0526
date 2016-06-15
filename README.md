@@ -14,7 +14,7 @@ class SwitchTest2 {
 		
 						
 /*
-	return:返回
+this is for daily life.
 	
 	其实它的作用不是结束循环的，而是结束方法的。
 */
@@ -48,3 +48,6 @@ class SwitchTest2 {
 		}
 	}
 }
+
+
+Life is running now!
